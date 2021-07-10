@@ -1,6 +1,11 @@
-各位执行一键脚本的时候一定最好确保该目录下没有重要文件，不然就运行
+# 记我被删库的记录
+## #1
 ```bash
-sudo apt install trash-cli
-alias rm='trash-put'
+*** rm -rf /storage/emulated/0/
+Ctrl-C
 ```
-血的教训啊啊啊啊啊
+
+## #2
+```bash
+*** rm -rf /root
+```
